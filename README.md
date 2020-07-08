@@ -1,6 +1,21 @@
+**Windows Branch - Important Note!**
+------------
+This branch enables **gamepad** input on **Windows** machines, via [node-ViGEmClient](node-ViGEmClient).
+
+**Major changes:**
+
+  * Downgraded 'forever-monitor' to 1.0.0 from 2.0.0, see [this](https://github.com/foreversd/forever/issues/1056).
+  * Dependencies:
+    * Added: "vigemclient: 1.1.2"
+    * Removed: "ioctl", "ref", "ref-struct" and "ref-array"
+  * Added 'virtual_gamepad_hub_vigem.js' and 'virtual_gamepad_vigem.js'.
+  * Edited './server.js'.
+
+**TODO:** Implement keyboard and touchpad input, improve gamepad code, refactor, etc.
+
 # node-virtual-gamepads
 
-This nodejs application turns your smartphone into a gamepad controller on Linux OS simply by reaching a local address.
+This nodejs application turns your smartphone into a gamepad controller simply by reaching a local address.
 You can virtually plug **up to 4** gamepad controllers.
 
 Demo
@@ -8,10 +23,6 @@ Demo
 Demo video 1 player in game [here](https://www.youtube.com/watch?v=OWgWugNsF7w)
 
 Demo video 3 players on EmulStation [here](https://www.youtube.com/watch?v=HQROnYLRyOw)
-
-Prerequisite
-------------
-This application is only compatible with Linux OS with the **uinput** kernel module installed.
 
 Installation
 ------------

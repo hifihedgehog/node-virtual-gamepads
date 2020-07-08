@@ -11,13 +11,10 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "ioctl": "^2.0.1",
     "socket.io": "^2.3.0",
-    "ref": "git://github.com/TooTallNate/ref.git#924437f94b0f24323008990319871ffcbfc75cd",
-    "ref-struct": "^1.1.0",
-    "ref-array": "^1.2.0",
     "winston": "^3.2.1",
-    "forever-monitor": "^2.0.0"
+    "forever-monitor": "^1.0.0",
+    "vigemclient": "^1.1.2"
   },
   "devDependencies": {
     "coffeescript": "1.10.0"

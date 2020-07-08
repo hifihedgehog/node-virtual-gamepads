@@ -22,17 +22,19 @@ Virtual gamepad application
 
   log = require('./lib/log');
 
-  gamepad_hub = require('./app/virtual_gamepad_hub');
+  gamepad_hub = require('./app/virtual_gamepad_hub_vigem');
 
   gp_hub = new gamepad_hub();
 
-  keyboard_hub = require('./app/virtual_keyboard_hub');
+  // TODO: Implement keyboard_hub and touchpad_hub
 
-  kb_hub = new keyboard_hub();
+  // keyboard_hub = require('./app/virtual_keyboard_hub');
 
-  touchpad_hub = require('./app/virtual_touchpad_hub');
+  // kb_hub = new keyboard_hub();
 
-  tp_hub = new touchpad_hub();
+  // touchpad_hub = require('./app/virtual_touchpad_hub');
+
+  // tp_hub = new touchpad_hub();
 
   port = process.env.PORT || config.port;
 
