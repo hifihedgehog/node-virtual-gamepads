@@ -2,6 +2,9 @@
 ------------
 This branch enables **gamepad** input on **Windows** machines, via [node-ViGEmClient](https://www.npmjs.com/package/vigemclient).
 
+**Requisites**
+Download and install [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) (tested with 1.16.116).
+
 **Major changes:**
 
   * Downgraded 'forever-monitor' to 1.0.0 from 2.0.0, see [this](https://github.com/foreversd/forever/issues/1056).
