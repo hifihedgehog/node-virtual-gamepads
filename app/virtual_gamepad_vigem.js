@@ -37,9 +37,9 @@ Virtual gamepad class
         };
 
         virtual_gamepad.prototype.disconnect = function (callback) {
-            if (this.controller) {
-                this.controller.disconnect();
-                this.controller = void 0;
+            if (controller) {
+                controller.disconnect();
+                controller = void 0;
                 return callback();
             }
         };
