@@ -1,6 +1,6 @@
 **Windows Branch - Important Note!**
 ------------
-This branch enables **gamepad** input on **Windows** machines, via [node-ViGEmClient](node-ViGEmClient).
+This branch enables **gamepad** input on **Windows** machines, via [node-ViGEmClient](https://www.npmjs.com/package/vigemclient).
 
 **Major changes:**
 
