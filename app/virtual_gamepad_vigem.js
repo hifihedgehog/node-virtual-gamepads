@@ -54,7 +54,7 @@ Virtual gamepad class
                         controller.axis.leftY.setValue(ev_val * -1);
                     }
                 } else if (event.type === 0x01) { // Button
-                    if(button_maps[""+event.code]){
+                    if(button_maps[event.code] !== null){
                         controller.button[button_maps[event.code]].setValue(event.value);
                     }
                 }
