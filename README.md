@@ -33,8 +33,9 @@ Installation
 **NOTE**: This application is only tested with node version 9. 10 and 12 are known
 to cause trouble because of the dependencies.
 
-    git clone https://github.com/miroof/node-virtual-gamepads
+    git clone https://github.com/egemenertugrul/node-virtual-gamepads
     cd node-virtual-gamepads
+    git checkout windows
     npm install
 
 If you encounter problems while installing or running node-virtual-gamepads have
@@ -57,7 +58,7 @@ with the editor of you choice and adjust the values.
 
 To start the server run
     
-    sudo node main.js
+    node main.js
 
 Usage
 -----
