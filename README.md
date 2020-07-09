@@ -8,12 +8,12 @@ Download and install [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) (tes
 
 **Major changes:**
 
-  * Downgraded 'forever-monitor' to 1.0.0 from 2.0.0, see [this](https://github.com/foreversd/forever/issues/1056).
+  * Downgraded `forever-monitor` to 1.0.0 from 2.0.0, see [this](https://github.com/foreversd/forever/issues/1056).
   * Dependencies:
-    * Added: "vigemclient: 1.1.2"
-    * Removed: "ioctl", "ref", "ref-struct" and "ref-array"
-  * Added 'virtual_gamepad_hub_vigem.js' and 'virtual_gamepad_vigem.js'.
-  * Edited 'server.js'.
+    * Added: `vigemclient: 1.1.2`
+    * Removed: `ioctl`, `ref`, `ref-struct` and `ref-array`
+  * Added `virtual_gamepad_hub_vigem.js` and `virtual_gamepad_vigem.js`.
+  * Edited `server.js`.
 
 **TODO:** Implement keyboard and touchpad input, improve gamepad code, refactor, etc.
 
