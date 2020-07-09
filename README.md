@@ -1,6 +1,6 @@
 **Windows Branch - Important Note!**
 ------------
-This branch enables **gamepad** input on **Windows** machines, via [node-ViGEmClient](https://www.npmjs.com/package/vigemclient).
+This branch enables **x360 gamepad** input on **Windows** machines, via [node-ViGEmClient](https://www.npmjs.com/package/vigemclient).
 
 **Requisites:**
 
@@ -13,7 +13,7 @@ Download and install [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) (tes
     * Added: "vigemclient: 1.1.2"
     * Removed: "ioctl", "ref", "ref-struct" and "ref-array"
   * Added 'virtual_gamepad_hub_vigem.js' and 'virtual_gamepad_vigem.js'.
-  * Edited './server.js'.
+  * Edited 'server.js'.
 
 **TODO:** Implement keyboard and touchpad input, improve gamepad code, refactor, etc.
 
