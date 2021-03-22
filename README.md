@@ -49,7 +49,7 @@ with the editor of you choice and adjust the values.
     can still be accessed via `/index.html`.
   * `analog`: if set to `true` the the above mentioned redirection will
     append `?analog` to the address. This flag will cause the gamepad's
-    d-pad to act like an analog stick instead of d-pad.
+    d-pad to act like an analog stick instead of a d-pad.
   * `logLevel`: set it to `"debug"` to get a lot more logging output,
     to `"warning"` to only get critical output, or even to `"error"` if
     you want to only get errors logged (not recommended).
