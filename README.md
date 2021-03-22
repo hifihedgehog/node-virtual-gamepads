@@ -16,7 +16,7 @@ Download and install [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) (tes
   * Edited `server.js`.
   * Added support for up to 10 controllers, up from 4, as implemented in the main branch of this project.
 
-**TODO:** Implement keyboard and touchpad input, improve gamepad code, refactor, etc.
+**TODO:** Implement keyboard and touchpad input based on popular demand.
 
 # node-virtual-gamepads
 
