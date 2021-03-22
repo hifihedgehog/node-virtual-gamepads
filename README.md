@@ -89,7 +89,7 @@ Then a shortcut is added onto your homescreen and the application will be launch
 ![Virtual gamepad directly from the homescreen](https://github.com/miroof/node-virtual-gamepads/blob/resources/screenshots/standalone_step3.png?raw=true)
 ![Launched outside the browser](https://github.com/miroof/node-virtual-gamepads/blob/resources/screenshots/standalone_step4.png?raw=true)
 
-You would follow a similar procedure in Safari on iOS to likewise pin this to your homescreen.
+You would follow a similar process with Safari on iOS to pin this to your homescreen there as well.
 
 ### Enjoy haptic feedback
 Because it it difficult to spot the right place in a touch screen without looking at it,
