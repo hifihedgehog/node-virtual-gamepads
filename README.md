@@ -69,7 +69,7 @@ Also included is a Visual Basic startup script (startup script.vbs) so the appli
 
 Features
 --------
-### Plug up to 10 virtual gamepads
+### Plug in up to 10 virtual gamepads
 The application will automatically plug in a new controller when the web application is launched and unplug it at disconnection.
 10 slots are available so 10 virtual gamepads can be created. You can see your current slot on the indicator directly on the virtual gamepad.
 
