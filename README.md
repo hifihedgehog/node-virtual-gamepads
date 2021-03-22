@@ -1,10 +1,11 @@
-**Windows Branch - Important Note!**
+**Windows Branch**
 ------------
 This is a fork of a fork, so many thanks to egemenertugrul for porting jehervy's web application to the Windows platform. This version enables **Xinput gamepad** input on **Windows** machines via [node-ViGEmClient](https://www.npmjs.com/package/vigemclient). I have since taken the liberty to add support for up to 10 virtual gamepads, up from 4, by integrating [the necessary bits from upstream in jehervy's main branch of the project](https://github.com/jehervy/node-virtual-gamepads/commit/619a0b0d80230b4200c6fc162d6c3292670b1fbb). Earlier vestiges of the virtual keyboard and touchpad components of the project have been removed but based on demand, they can be readded at a later date. For those interested in contributing, Robot.js package would be a suitable candidate for adding in virtual touchpad and keyboard support.
 
-**Requisites:**
+**Prequisite:**
 
 Download and install [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) (tested through 1.17.333).
+Download and install Node.js 14. The "Automatically install the necessary tools" option must also be checked to include the Visual Studio Build Tools (required).
 
 **Major changes:**
 
@@ -31,7 +32,7 @@ Demo video of 3 players in EmulationStation [here](https://www.youtube.com/watch
 
 Installation
 ------------
-**NOTE**: This application is tested with Node.js 14. The "Automatically install the necessary tools" option must be checked to include the Visual Studio Build Tools (required).
+**NOTE**: This application is tested with Node.js 14.
 
     git clone https://github.com/hifihedgehog/node-virtual-gamepads
     cd node-virtual-gamepads
@@ -74,7 +75,7 @@ The application will automatically plug in a new controller when the web applica
 
 ![Virtual gamepad](https://github.com/miroof/node-virtual-gamepads/blob/resources/screenshots/standalone.png?raw=true)
 
-### Use it as standalone application (chrome mobile)
+### Use it as standalone application (Chrome)
 With the [add to homescreen](https://developer.chrome.com/multidevice/android/installtohomescreen) Chrome feature,
 you can easily use virtual gamepads application without launching the browser each time you want to play.
 
@@ -88,15 +89,17 @@ Then a shortcut is added onto your homescreen and the application will be launch
 ![Virtual gamepad directly from the homescreen](https://github.com/miroof/node-virtual-gamepads/blob/resources/screenshots/standalone_step3.png?raw=true)
 ![Launched outside the browser](https://github.com/miroof/node-virtual-gamepads/blob/resources/screenshots/standalone_step4.png?raw=true)
 
-### Enjoy haptic feedbacks
+You would follow a similar procedure in Safari on iOS to likewise pin this to your homescreen.
+
+### Enjoy haptic feedback
 Because it it difficult to spot the right place in a touch screen without looking at it,
 the touch zone of each button was increased. LT button was moved at the center of the screen
 to let as much space as possible for the joystick and avoid touch mistakes.
 
 ![Step 1](https://github.com/miroof/node-virtual-gamepads/blob/resources/schemas/touch_zones.png?raw=true)
 
-To know if a button has been pressed successfully, the web application provides an haptic feedback
+To know if a button has been pressed successfully, the web application provides haptic feedback
 which can be easily deactivated by turning off the vibrations of the phone.
 
-### An index page lets you choose
+### An index page lets you choose when to start the gamepad
 ![Index page](https://github.com/miroof/node-virtual-gamepads/blob/resources/screenshots/index.png?raw=true)
