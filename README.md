@@ -102,4 +102,3 @@ To know if a button has been pressed successfully, the web application provides 
 which can be easily deactivated by turning off the vibrations of the phone.
 
 ### An index page lets you choose when to start the gamepad
-![Index page](https://github.com/miroof/node-virtual-gamepads/blob/resources/screenshots/index.png?raw=true)
