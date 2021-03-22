@@ -71,7 +71,7 @@ Features
 --------
 ### Plug up to 10 virtual gamepads
 The application will automatically plug in a new controller when the web application is launched and unplug it at disconnection.
-10 slots are available so 10 virtual gamepads can be created. You can see your current slot on the indicator directly on the vitual gamepad.
+10 slots are available so 10 virtual gamepads can be created. You can see your current slot on the indicator directly on the virtual gamepad.
 
 ![Virtual gamepad](https://github.com/miroof/node-virtual-gamepads/blob/resources/screenshots/standalone.png?raw=true)
 
