@@ -21,7 +21,7 @@ Download and install Node.js 14. The "Automatically install the necessary tools"
 
 # node-virtual-gamepads
 
-This Node.js application turns your smartphone into a gamepad controller simply by reaching a local address.
+Ever have friends over and was shy in the controller department? Have them connect to your local Wi-Fi network and access this handy dandy application! This Node.js application turns your smartphone into a gamepad controller simply by reaching a local address.
 You can plug in **up to 10** virtual gamepad controllers.
 
 Demo
