@@ -17,7 +17,7 @@ Download and install Node.js 14. The "Automatically install the necessary tools"
   * Edited `server.js`.
   * Added support for up to 10 controllers, up from 4, as implemented in the main branch of this project.
 
-**TODO:** Implement keyboard and touchpad input based on popular demand.
+**TODO:** Implement keyboard and touchpad input if demand warrants it.
 
 # node-virtual-gamepads
 
