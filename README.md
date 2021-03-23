@@ -2,7 +2,7 @@
 ------------
 This is a fork of a fork, so many thanks to egemenertugrul for porting jehervy's web application to the Windows platform. This version enables **XInput gamepad** input on **Windows** machines via [the Node.js ViGEmClient package](https://www.npmjs.com/package/vigemclient). I have since taken the liberty to add support for up to 10 virtual gamepads, up from 4, by integrating [the necessary bits from upstream in jehervy's main branch of the project](https://github.com/jehervy/node-virtual-gamepads/commit/619a0b0d80230b4200c6fc162d6c3292670b1fbb). Earlier vestiges of the virtual keyboard and touchpad components of the project have been removed but based on demand, they can be readded at a later date. For those interested in contributing, [RobotJS](http://robotjs.io/) would likely be the best candidate for reintegrating virtual touchpad and keyboard support.
 
-**Prequisite:**
+**Prequisites:**
 
 Download and install [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) (tested through 1.17.333).
 Download and install Node.js 14. The "Automatically install the necessary tools" option must also be checked to include the Visual Studio Build Tools (required).
