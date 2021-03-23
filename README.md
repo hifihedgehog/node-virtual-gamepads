@@ -63,7 +63,7 @@ Usage
 Once the Node.js application is launched, you just have to plug in your virtual gamepad controller
 by connecting your device on the same local network by reaching the address *http://node_server_address*
 
-In Windows, your device/computer name would be what you type into the browser for "node_server_address." You can modify your device/computer name by going to the Settings app and clicking on "Advanced system settings" and from the pop-up, switching to the tab "Computer Name" and selecting "Change." Replace the name in the computer name field to whatever you want. Then press OK twice to apply and reboot as required.
+In Windows, your device/computer name would be what you type into the browser for "node_server_address." You can modify your device/computer name by going to the Settings app and clicking on "Advanced system settings" and from the pop-up, switching to the tab "Computer Name" and selecting "Change." Replace the name in the computer name field to whatever you want. Then press OK twice to apply and reboot as required. For your computer to be seen by other devices, you may also need to set your network to private with at least network discovery on and perhaps printer and file sharing on as well.
 
 Also included is a Visual Basic startup script (startup script.vbs) so the application can be made start automatically in an invisible window (in the background) at login. You would adjust the path in the file from "C:\node-virtual-gamepads" to the path where you are running the application on your machine. Then for it to run automatically at startup for all users, you would copy this file to the folder C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\.
 
